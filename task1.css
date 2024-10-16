@@ -1,0 +1,34 @@
+body{
+    background-image: url('./kaspathar.jpeg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: fixed;
+    font-size: 20px;
+    line-height: 50px;
+}
+h1{
+    font-family: "Protest Strike", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    text-align: center;
+    letter-spacing: 2px;
+    color: aliceblue;
+    
+}
+p{
+    text-transform: uppercase;
+    font-weight: bold;
+    text-shadow: 5px 5px 10px yellow;
+}
+footer{
+    background-color: black;
+    margin-top: 150px !important;
+    margin:auto;
+    border: 1px solid white;
+    width: 500px;
+    box-shadow: 5px 5px 10px 10px white;
+}
+a{
+    text-decoration: none;
+    color: white;
+}

@@ -1,0 +1,10 @@
+.div2{
+    background-image: url(ex12.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: dashed;
+}
+.heading{
+    color: green;
+    background: #000;
+}

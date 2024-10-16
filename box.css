@@ -1,0 +1,18 @@
+.main{
+    border: 2px solid black;
+    width: 400px;
+    height: 400px;
+    margin: auto;
+
+}
+#p{
+    margin: auto;
+
+}
+#p1{
+    border: 2px dashed blue;
+    margin-top: -300px;
+    width: 200px;
+    height: 200px;
+    
+}
