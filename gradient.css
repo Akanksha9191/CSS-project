@@ -1,0 +1,11 @@
+.d1{
+    border: 1px solid black;
+    width: 600px;
+    height: 300px;
+    /* background-image: linear-gradient(to right bottom, yellow, orange,red,black); */
+                                    /* (direction, color) */
+    background-image: radial-gradient(circle,pink 50%,purple 80%,blue 10%);
+}
+body{
+    background-image: linear-gradient(to right bottom, white 70%,yellow 10%);
+}

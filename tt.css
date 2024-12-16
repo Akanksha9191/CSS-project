@@ -1,0 +1,40 @@
+table{
+    background-color: bisque;
+    margin: auto;
+}
+caption{
+    font-size: 40px;
+    font-weight: bold;
+    padding: 30px;
+}
+
+.blue{
+    color: rgb(74, 175, 242);
+    font-weight: 900;
+}
+.org{
+    color: orange;
+    font-weight: 900;
+}
+.purple{
+    color: purple;
+    font-weight: 900;
+}
+.green{
+    color: green;
+    font-weight: 900;
+}
+.red{
+    color: red;
+    font-weight: 900;
+}
+.bold1{
+    font-weight: bold;
+    text-align: center;
+}
+table tr th{
+    border: 1px solid black;
+}
+table tr td{
+    border: 1px solid black;
+}

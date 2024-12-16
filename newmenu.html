@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menu Card</title>
+    <link rel="stylesheet" type="text/css" href="menu.css">
+</head>
+
+<style>
+    body {
+        background-color: aqua;
+        font-family: Arial, sans-serif;
+        margin: 0;
+    }
+    
+    h2 {
+        color: rgb(192, 101, 9);
+        text-align: center;
+        font-size: 60px;
+        margin-bottom: 20px;
+    }
+    
+    h1 {
+        color: brown;
+        text-decoration: underline dotted;
+        text-align: center;
+        margin: 20px 0;
+    }
+    
+    /* Menu Container */
+    .menu-container {
+        display: flex;
+        justify-content: center;
+        align-items: flex-start;
+        padding: 20px; 
+        gap: 20px;
+    }
+    
+    /* Prices alignment */
+    span {
+        float: right;
+    }
+</style>
+
+<body>
+    <h2>SAMRAT MENU</h2>
+    <div class="menu-container">
+        <!-- Column 1 -->
+        <div class="menu-section">
+            <h1>HOT REFRESHERS</h1>
+            <ol type="1">
+                <li>Special Tea <span>30/-</span></li>
+                <li>Black Tea <span>30/-</span></li>
+                <li>Nescafe <span>30/-</span></li>
+                <li>Filter Coffee <span>30/-</span></li>
+                <li>Hot Chocolate <span>30/-</span></li>
+                <li>Masala Milk <span>30/-</span></li>
+            </ol>
+            <h1>SNACKS</h1>
+            <ol type="1" start="7">
+                <li>Poha</li>
+                <li>Upma</li>
+                <li>Shira</li>
+                <li>Veg Cutlet</li>
+                <li>Bread Masala</li>
+                <li>Puri Baji</li>
+                <li>Shrikhand Puri</li>
+                <li>Kurma Puri</li>
+                <li>Misal Pav / Slice</li>
+                <li>Kachori (Fasting)</li>
+                <li>Sabudana Wada</li>
+                <li>French Fries</li>
+                <li>Onion Bhajiya/Kekda</li>
+                <li>Veg Pakoda</li>
+                <li>Paneer Pakoda</li>
+            </ol>
+        </div>
+
+       
+
+        <!-- Column 2 -->
+        <div class="menu-section">
+            <h1>IDALI</h1>
+            <ol type="1" start="22">
+                <li>Steam Idli/Butter</li>
+                <li>Dahi Idli</li>
+                <li>Medu Wada</li>
+                <li>Fried Idli/Chilli Fry M/S</li>
+                <li>Potato Wada</li>
+                <li>Mix Wada Sambar</li>
+                <li>Dahi Wada</li>
+            </ol>
+            <h1>DOSA/UTTAPA</h1>
+            <ol start="29">
+                <li>Masala Dosa/Sada Dosa</li>
+                <li>Special M Dosa/Sada Dosa</li>
+                <li>Ghee M Dosa/Sada Dosa</li>
+                <li>Mysore M/Sada Dosa</li>
+                <li>Cheese M Dosa Sada Dosa</li>
+                <li>Paneer M Dosa/Sada Dosa</li>
+            </ol>
+        </div>
+    </div>
+</body>
+
+</html>

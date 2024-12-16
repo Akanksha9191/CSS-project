@@ -2,9 +2,9 @@
 body{
     background-color: antiquewhite;
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif !important;
-    /* background-image: url('./bg.jpeg');
+    background-image: url('./bg.jpeg');
     background-repeat: no-repeat;
-    background-size: contain; */
+    background-size: contain;
 }
 
 h1{

@@ -1,0 +1,66 @@
+/* all part */
+.main-container{
+    background-color:antiquewhite;
+    border: 5px dotted brown;
+    height: 900px;
+    width: 600px;
+    margin: auto;
+}
+/* Hotel name */
+h2{
+    color: rgb(192, 101, 9);
+    text-align: center;
+    font-size: 60px;
+}
+
+/* menu name */
+h1{
+    color: brown;
+    text-decoration: underline dotted;
+    text-align: center;
+}
+
+.menu-container{
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    gap: 90px;
+}
+/* add images*/
+#tea{
+    background-image: url(./co-removebg-preview.png);
+    background-repeat: no-repeat;
+    background-position: 120px 10px;
+    background-size: 70px;
+}
+#snack{
+    background-image: url(./poha.jpeg);
+    background-repeat: no-repeat;
+    background-position: 130px 100px;
+    background-size: 50px;
+}
+#idli{
+    background-image: url(./idli.jpeg);
+    background-repeat: no-repeat;
+    background-position: 160px 80px;
+    background-size: 50px;
+}
+#dosa{
+    background-image: url(./m-dosa.jpeg);
+    background-repeat: no-repeat;
+    background-size: 25px;
+    background-position: 210px 100px ;
+    /* width height */
+}
+/* rates */
+span{
+    float: right;
+}
+
+img{
+    overflow: auto;
+    width: 200px;
+    float: right ;
+    margin-top: -150px;
+    margin-right: 50px;
+}

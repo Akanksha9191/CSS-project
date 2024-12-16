@@ -1,0 +1,11 @@
+img{
+    height: 400px;
+    /* filter: brightness(30%); */
+    /* filter: blur(30px); */
+    /* filter: contrast(40%); */
+    filter: drop-shadow(10px 5px 15px yellow);
+    /* filter: grayscale(); */
+    /* filter: invert(70%); */
+    /* filter: opacity(50%); */
+    
+}
